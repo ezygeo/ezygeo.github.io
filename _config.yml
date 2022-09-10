@@ -2,7 +2,7 @@
 title               : ezygeo
 description         : >-
                       Applications of Data Science or Machine Learning Methods in Geophysics.
-baseurl             : "/ezygeo"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : ezygeo/ezygeo.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
