@@ -19,10 +19,10 @@
             {% include elements/button.html link=aboutlink text="about me" size="lg" style="info" %}
             {%- capture projectslink -%}{%- link pages/projects.html -%}{%- endcapture -%}
             {% include elements/button.html link=projectslink text="my projects" size="lg" style="success" %}
-            
-            {% raw %}
+
+            {%- capture projectslink -%}{%- link pages/products.html -%}{%- endcapture -%}
             {% include elements/video.html id="frudQqU3TKU" %}
-            {% endraw %}
+            
         </p>
 
     </div>
