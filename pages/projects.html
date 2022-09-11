@@ -10,6 +10,6 @@ remote_projects:
 
 <h2 class="text-center"><i class="fas fa-terminal"></i> coding projects</h2>
 
-{% assign sorted = site.projects | where: "featured", false, where_exp: "item", "item.type == 'coding'" | sort: "date" | reverse %}
+{% assign sorted = site.projects | where: "featured", false, "item.type == 'coding'" | sort: "date" | reverse %}
 
 {% include projects/index.html %}
