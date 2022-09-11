@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : ezygeo
 description         : >-
-                      applications of data science or machine learning Methods in geophysics.
+                      applications of data science or machine learning methods in geophysics.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : ezygeo/ezygeo.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU@v2.3.0
