@@ -18,7 +18,6 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - pages/products.html
   - documentation/partials/**                           # For Documentation Only
 
 
