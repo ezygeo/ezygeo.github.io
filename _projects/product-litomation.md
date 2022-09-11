@@ -1,6 +1,6 @@
 ---
 name: litomation
-tools: [products, gui-app]
+tools: [products, seismic, gui-app]
 image: /assets/product_images/logo.png
 description: an automated lithology estimation
 external_url: https://youtu.be/frudQqU3TKU
