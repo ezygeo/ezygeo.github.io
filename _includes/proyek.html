@@ -1,0 +1,34 @@
+<div class="row">
+    <ul class="fa-ul">
+        {% assign sorted = (site.projects | sort: "date") | reverse %}
+        {% for project in sorted %}
+        {% if project.tools contains include.category %}
+        {% case include.category %}
+        {% when "coding" %}
+        {% assign class_project = "fas fa-laptop-code"%}
+        {% when "product" %}
+        {% assign class_project = "fas fa-music"%}
+        {% else %}
+        {% assign class_project = "fas fa-briefcase"%}
+        {% endcase %}
+
+        {% if project.external_url %}
+        {% assign project_url = project.external_url %}
+        {% else %}
+        {% assign project_url = project.url | relative_url %}
+        {% endif %}
+        <li><span class="fa-li"><i class="{{ class_project }}"></i></span>
+            <a href="{{ project_url }}"><strong>{{ project.name }}</strong></a>
+            <small>{{ project.date | date: "%d %B %Y"}}</small>
+            <br>
+            <p>{{ project.description }}
+                <br>
+                {%- for category in project.tools -%}
+                <span class="badge badge-pill text-primary border border-primary mr-1">{{ category }}</span>
+                {%- endfor -%}
+            </p>
+        </li>
+        {%- endif -%}
+        {%- endfor -%}
+    </ul>
+</div>
