@@ -5,7 +5,7 @@
 
 # ezygeo.github.io
 
-Applications of Data Science or Machine Learning Methods in Geophysics.
+Professional website.
 
 
 Theme: [PortfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) by Youssef Raafat and inspired by [@taruma](https://github.com/taruma/taruma.github.io).

@@ -1,5 +1,3 @@
-
-
 <div class="row justify-content-center align-items-center p-4">
     <div class="col-lg-4 col-md-6 text-center mt-4">
 
@@ -15,11 +13,6 @@
         <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
         <br>
         <p class="text-center wow animated slideInUp" data-wow-delay=".15s">
-            {%- capture aboutlink -%}{%- link pages/about.md -%}{%- endcapture -%}
-            {% include elements/button.html link=aboutlink text="about me" size="lg" style="info" %}
-            {%- capture projectslink -%}{%- link pages/projects.html -%}{%- endcapture -%}
-            {% include elements/button.html link=projectslink text="my projects" size="lg" style="success" %}
-
             {%- capture projectslink -%}{%- link pages/products.html -%}{%- endcapture -%}
             {% include elements/video.html id="frudQqU3TKU" size="lg" %}
             

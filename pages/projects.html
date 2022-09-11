@@ -1,11 +1,12 @@
 ---
 layout: default
 title: projects
-permalink: /projects/
+permalink: /projects
 weight: 2
-remote_projects: 
-  - git-for-wizards
-  - arduino-visitor-counter
 ---
+
+<h2 class="text-center"><i class="fas fa-terminal"></i> coding projects</h2>
+
+{% assign sorted = site.projects | where_exp: "item", "item.type == 'coding'" | sort: "date" | reverse %}
 
 {% include projects/index.html %}
