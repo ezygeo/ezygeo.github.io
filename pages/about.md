@@ -9,8 +9,7 @@ weight: 5
 
 Hi, we are **{{ site.author.name }}** :wave:,<br>
 
-<div class="row">
-<!-- <p align="center"> -->
+<!-- <div class="row">
     <figure>
         <a href="https://hpratama.github.io" target="blank">
             <img align="center" src="https://avatars.githubusercontent.com/u/24450783?v=4?raw=true" height="70" width="70" />
@@ -23,5 +22,21 @@ Hi, we are **{{ site.author.name }}** :wave:,<br>
         </a>
         <figcaption>mheriyanto</figcaption>
     </figure>
-<!-- </p> -->
+</div> -->
+
+<div align="center">
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>hpratama</b></td>
+      <td><b>mheriyanto</b></td>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+      <td><img alt="hpratama" href="https://hpratama.github.io" src="https://avatars.githubusercontent.com/u/24450783?v=4?raw=true" height="100" width="100" /></td>
+      <td><img alt="mheriyanto" href="https://mheriyanto.github.io" src="https://avatars.githubusercontent.com/u/22278148?v=4?raw=true" height="100" width="100"/></td>
+  </tr>
+</tbody>
+</table>
 </div>
