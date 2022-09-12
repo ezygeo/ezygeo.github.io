@@ -9,27 +9,12 @@ weight: 5
 
 Hi, we are **{{ site.author.name }}** :wave:,<br>
 
-<!-- <div class="row">
-    <figure>
-        <a href="https://hpratama.github.io" target="blank">
-            <img align="center" src="https://avatars.githubusercontent.com/u/24450783?v=4?raw=true" height="70" width="70" />
-        </a>
-        <figcaption>hpratama</figcaption>
-    </figure>
-    <figure>
-        <a href="https://mheriyanto.github.io" target="blank">
-            <img align="center" src="https://avatars.githubusercontent.com/u/22278148?v=4?raw=true" height="70" width="70" />
-        </a>
-        <figcaption>mheriyanto</figcaption>
-    </figure>
-</div> -->
-
 <div align="center">
 <table>
   <thead align="center">
-    <tr border: none;>
-      <td><b>hpratama</b></td>
-      <td><b>mheriyanto</b></td>
+    <tr>
+      <td><b><a href="https://github.com/hpratama">hpratama</a></b></td>
+      <td><b><a href="https://github.com/mheriyanto">mheriyanto</a></b></td>
     </tr>
   </thead>
 <tbody>
