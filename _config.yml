@@ -25,14 +25,14 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : ezygeo
   image             : assets/product_images/logo.png
-  email             : ezygeo_ai
-  facebook          : ezygeo
-  github            : ezygeo-ai
-  instagram         : ezygeo.ai
   linkedin          : ezygeo
+  github            : ezygeo-ai
   medium            : ezygeo
-  twitter           : ezygeo_ai
+  email             : ezygeo_ai
   youtube           : channel/UCyZ0yAvCh0V7HwPKDr3y1BQ
+  instagram         : ezygeo.ai
+  twitter           : ezygeo_ai
+  facebook          : ezygeo
 
 
 ### Posts ###
