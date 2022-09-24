@@ -6,5 +6,4 @@ description: our portfolio website
 external_url: https://ezygeo.github.io
 date: 2022-09-11
 type: coding
-featured: false
 ---
